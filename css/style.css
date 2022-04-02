@@ -1,0 +1,99 @@
+/* Main settings */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(210, 36%, 96%);
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+/* Container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container h2{
+    text-align: center;
+    margin-top: 5rem;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    color: hsl(209, 61%, 16%);
+}
+.container .line{
+    margin: 0.5rem auto 1.5rem auto;
+    display: block;
+    height: 4px;
+    width: 80px;
+    background-color: #c59d5f;
+}
+
+/* Container Buttons */
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.buttons button{
+    color: #c59d5f;
+    background: transparent;
+    margin: 0 0.3rem;
+    padding: 0.4rem;
+    border:2px #c59d5f solid;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.buttons button:hover{
+    background-color: #c59d5f;
+    color: white;
+}
+
+
+/* Container Menu */
+.photo{
+    margin-right: 1rem;
+    border: 3px #c59d5f solid;
+    border-radius: 5px;
+    height: 150px;
+    max-width: 200px;
+}
+.menu-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    max-width: 600px;
+    margin-bottom: 3rem;
+}
+.item{
+    margin-right: 1rem;
+}
+.item header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted hsl(210, 22%, 49%);
+    margin-bottom: 1rem;
+}
+.item header h4{
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    color: hsl(209, 61%, 16%);
+    font-size: 1.1rem;
+}
+.item header .price{
+    color: #c59d5f;
+    font-size: 1.2rem;
+}
+.item .text{
+    color: hsl(210, 22%, 49%);
+    font-size: 1.3rem;
+}
